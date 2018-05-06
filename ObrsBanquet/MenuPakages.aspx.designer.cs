@@ -13,6 +13,33 @@ namespace ObrsBanquet {
     public partial class MenuPakages {
         
         /// <summary>
+        /// Skip control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Skip;
+        
+        /// <summary>
+        /// GoNext control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button GoNext;
+        
+        /// <summary>
+        /// InfoLable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label InfoLable;
+        
+        /// <summary>
         /// ListView1 control.
         /// </summary>
         /// <remarks>
@@ -29,6 +56,15 @@ namespace ObrsBanquet {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        
+        /// <summary>
+        /// menuOne control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button menuOne;
         
         /// <summary>
         /// ListView2 control.
@@ -49,6 +85,15 @@ namespace ObrsBanquet {
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource2;
         
         /// <summary>
+        /// menuTwo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button menuTwo;
+        
+        /// <summary>
         /// ListView3 control.
         /// </summary>
         /// <remarks>
@@ -65,6 +110,15 @@ namespace ObrsBanquet {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource3;
+        
+        /// <summary>
+        /// menuThree control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button menuThree;
         
         /// <summary>
         /// ListView4 control.
@@ -85,6 +139,15 @@ namespace ObrsBanquet {
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource4;
         
         /// <summary>
+        /// menuFour control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button menuFour;
+        
+        /// <summary>
         /// ListView5 control.
         /// </summary>
         /// <remarks>
@@ -103,6 +166,15 @@ namespace ObrsBanquet {
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource5;
         
         /// <summary>
+        /// menuFive control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button menuFive;
+        
+        /// <summary>
         /// ListView6 control.
         /// </summary>
         /// <remarks>
@@ -119,5 +191,14 @@ namespace ObrsBanquet {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource6;
+        
+        /// <summary>
+        /// menuSix control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button menuSix;
     }
 }

@@ -72,6 +72,7 @@
     <Content Include="css\ChackBoxMenu.css" />
     <Content Include="InformationForm.aspx" />
     <Content Include="MenuPakages.aspx" />
+    <Content Include="Next.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
@@ -160,6 +161,13 @@
     </Compile>
     <Compile Include="MenuPakages.aspx.designer.cs">
       <DependentUpon>MenuPakages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Next.aspx.cs">
+      <DependentUpon>Next.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Next.aspx.designer.cs">
+      <DependentUpon>Next.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
