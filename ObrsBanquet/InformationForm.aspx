@@ -1,14 +1,45 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="InformationForm.aspx.cs" Inherits="ObrsBanquet.InformationForm" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<script type="text/javascript"> 
+    function pageScroll() 
+    {
+      try
+      {
+        window.scrollBy(0,100000); 
+      }
+      catch(e)
+      {
+      }
+    }
+  </script>
 </asp:Content>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
 <div class="container">
-        <h1 class="my-4 well">Reservation
-        <small>Information Form</small>
-        </h1>
+  <div class="row">
+                 <h1 class="my-4 well">Reservation
+                    <small>Information Form</small>
+              </h1>
+       <div class="col-lg-6" style="margin-bottom: auto; margin-top: auto">
+               
+                <div class="row">
+                    <asp:Label ID="SubmitLabel" Visible="false" CssClass="text-success h4 col-9" runat="server" Text=" "></asp:Label>
+                        
+                <div class="col-4"></div>
+                     <asp:Button ID="PreviousButton" class="btn-info form-control col-3" runat="server" Text="Previous " OnClick="Previous_Click" />
+                 <span class="col-1"></span>
+                           <asp:Button ID="SubmitButton" class="btn-primary form-control col-3" runat="server" Text="Submit" OnClick="SubmitButton_Click" />
+                    
+                    <span class="col-1"></span>
+                            <asp:Button ID="NextButton" class="btn-success form-control col-3" Visible="false" Width="200px" runat="server" Text="GO Next" OnClick="Next_Click" />
+                </div>
+            </div>
+        </div>
+                        <div class="container text-center">
+                           <asp:Label ID="InfoRequiredLable" CssClass="text-danger h4" runat="server" Text=" "></asp:Label>
+                    </div>
+    
         <!-- <h1 class="well">Registration Form</h1>-->
         <div class="col-lg-12 well">
             <div class="row">
@@ -33,23 +64,41 @@
                             <asp:TextBox ID="EventNameTextBox" placeholder="Enter Event Name Here.." class="form-control" runat="server"></asp:TextBox>
                         </div>
 
-                        <div class="col-sm-4 form-group">
+                        <div class="col-sm-2 form-group">
                             <label>No of Guest</label>
-                            <asp:TextBox ID="NoOfGuest" placeholder="Estimated No of Guest.." class="form-control" runat="server"></asp:TextBox>
+                               <asp:DropDownList CssClass="dropdown btn-primary form-control" ID="NoofGuest" runat="server" Width="100px">
+                                <asp:ListItem>200</asp:ListItem>
+                                <asp:ListItem>300</asp:ListItem>
+                                <asp:ListItem>450</asp:ListItem>
+                                <asp:ListItem>650</asp:ListItem>
+                                <asp:ListItem>700</asp:ListItem>
+                                <asp:ListItem>850</asp:ListItem>
+                            </asp:DropDownList>
+                        
                         </div>
-                        <div class="col-sm-4 form-group">
+                        <div class="col-sm-3 form-group">
                             <label>Event Type</label>
                             <!--<input type="text" placeholder="Enter Last Name Here.." class="form-control"/>-->
                             <asp:DropDownList CssClass="dropdown btn-primary form-control" ID="EventTypeDropDown" runat="server" Width="200px">
                                 <asp:ListItem>Wedding Ceremony</asp:ListItem>
                                 <asp:ListItem>Mehndi/Mayon</asp:ListItem>
-                                <asp:ListItem>Offical Meeting</asp:ListItem>
                                 <asp:ListItem>Get Together</asp:ListItem>
                                 <asp:ListItem>Party</asp:ListItem>
                                 <asp:ListItem>Other</asp:ListItem>
                             </asp:DropDownList>
                         </div>
+
+                        
+                        <div class="col-sm-3 form-group">
+                            <label>Sitting Format</label>
+                            <!--<input type="text" placeholder="Enter Last Name Here.." class="form-control"/>-->
+                            <asp:DropDownList CssClass="dropdown btn-primary form-control" ID="sittingFormat" runat="server" Width="200px">
+                                <asp:ListItem>SEPARATE</asp:ListItem>
+                                <asp:ListItem>JOINT</asp:ListItem>
+                                </asp:DropDownList>
+                        </div>
                     </div>
+
 
                     <div class="row">
                         <div class="col-sm-6 form-group">
@@ -105,31 +154,10 @@
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <asp:Label ID="InfoRequiredLable" CssClass="text-danger h4" runat="server" Text=" "></asp:Label>
-                        </div>
-                        <div class="col-sm-4 form-group">
-                            <asp:Button ID="PreviousButton" class="btn-info form-control" Width="200px" runat="server" Text="Previous " OnClick="Previous_Click" />
-                        </div>
-                        <div class="col-sm-4 form-group">
-                            <asp:Button ID="SubmitButton" class="btn-primary form-control" Width="200px" runat="server" Text="Submit" OnClick="SubmitButton_Click" />
-                        </div>
-                    </div>
-
-                      <div class="row">
-                        <div class="col-sm-8">
-                            <asp:Label ID="SubmitLabel" CssClass="text-success h4" runat="server" Text=" "></asp:Label>
-                        </div>
-                        <div class="col-sm-4 form-group">
-                            <asp:Button ID="NextButton" class="btn-info form-control" Visible="false" Width="200px" runat="server" Text="GO Next" OnClick="Next_Click" />
-                        </div>
-                    </div>
-
+    
                 </div>
             </div>
         </div>
     </div>
-
 
 </asp:Content>

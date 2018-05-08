@@ -11,27 +11,19 @@ namespace ObrsBanquet
 {
     public partial class MenuPakages : System.Web.UI.Page
     {
-        private int MenuID = 0;
+        private int MenuID;
         private string insertMenu = "INSERT INTO[dbo].[ElementsInclude]([reservationId],[menuId]) VALUES(@ReservationId,@menuID);"+
                                      "Select CAST(IDENT_CURRENT('ElementsInclude') as int);";
 
         SqlConnection con;
         SqlCommand cmd;
         SqlConnectionStringBuilder conStringBuilber;
-        Int32 newReservationId = 0;
-        private int newUserElementIncludeId = 0;
+        Int32 newReservationId;
+        private int newUserElementIncludeId;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
-         //   if (!Session["newReservationId"].Equals(null))
-            {
-                newReservationId = 1;
-            //    newReservationId = (Int32)Session["newReservationId"];
-            //   }else {
-            //      Response.Redirect("InformationForm.aspx");
-            }
-
+            
         }
 
         protected void menuButton_Click(object sender, EventArgs e)
@@ -75,15 +67,16 @@ namespace ObrsBanquet
 
         protected void Skip_Click(object sender, EventArgs e)
         {
-            Response.Redirect("index.html");
+            Response.Redirect("FloorPlan.aspx");
         }
 
         protected void GoNext_Click(object sender, EventArgs e)
         {
+
            if(sendMenuToDataBase() > 0) {
                 Session["newUserElementIncludeId"] = newUserElementIncludeId;
            }
-            Response.Redirect("Next.aspx");
+            Response.Redirect("FloorPlan.aspx");
         }
 
 
@@ -109,7 +102,7 @@ namespace ObrsBanquet
 
         }
         private int sendMenuToDataBase()
-        {
+        { 
             ConnectDB();
             try
             {
@@ -122,6 +115,8 @@ namespace ObrsBanquet
                 con.Open();
 
                 newUserElementIncludeId = (Int32)cmd.ExecuteScalar();
+                Session["newUserElementIncludeId"]  = newUserElementIncludeId;
+               
                 return newUserElementIncludeId;
             }
             catch (Exception e)
@@ -139,6 +134,10 @@ namespace ObrsBanquet
 
         }
 
+        protected void CustomiseMenu_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("CustomizeMenu.aspx");
+        }
     }
 
 }

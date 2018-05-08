@@ -15,14 +15,14 @@ namespace ObrsBanquet
                         "Select CAST(IDENT_CURRENT('User') as int);";
 
 
-        string insertReservation = "INSERT INTO [dbo].[ReservationEvents]([EventName],[Time],[Date],[Lock],[EventType],[NoOfGuest],[UserId]) VALUES(@EventName,@Time,@Date,@Lock,@EventType, @NoOfGuest, @UserId);" +
+        string insertReservation = "INSERT INTO [dbo].[ReservationEvents]([EventName],[Time],[Date],[Lock],[EventType],[NoOfGuest],[UserId],[SittingFormat]) VALUES(@EventName,@Time,@Date,@Lock,@EventType, @NoOfGuest, @UserId,@SittingFormat);" +
                       "Select CAST(IDENT_CURRENT('ReservationEvents') as int);";
 
         DataSet DataSetReserved = new DataSet();
         DateTime eventDate;
         char eventTime;
         SqlConnection con;
-        SqlCommand cmd;
+        SqlCommand cmd; 
         SqlConnectionStringBuilder conStringBuilber;
         Int32 newUserId = 0;
         Int32 newReservationId = 0;
@@ -62,7 +62,7 @@ namespace ObrsBanquet
         {
             if (
             !EventNameTextBox.Text.Equals("") &&
-            !NoOfGuest.Text.Equals("") &&
+            !NoofGuest.Text.Equals("") &&
             !EventTypeDropDown.Text.Equals("") &&
             !firstNameText.Text.Equals("") &&
             !lastNameText.Text.Equals("") &&
@@ -79,11 +79,12 @@ namespace ObrsBanquet
                 {
                     if (sendReservationToDataBase() > 0)
                     {
-                        SubmitLabel.Visible = true;
-                        SubmitLabel.Text = "Successfully Submited.."+"Your Reservation ID : " +newReservationId;
+                       SubmitLabel.Visible = true;
+                        SubmitLabel.Text = "Successfully Submited.."+"Reservation ID : " +newReservationId;
                         NextButton.Visible = true;
                         PreviousButton.Visible = false;
                         SubmitButton.Visible = false;
+                        InfoRequiredLable.Text = " ";
                     }
                 }
 
@@ -140,6 +141,7 @@ namespace ObrsBanquet
                 con.Open();
 
                 newUserId = (Int32)cmd.ExecuteScalar();
+                Session["newUserId"] = newUserId;
                 return newUserId;
             }
             catch (Exception e)
@@ -165,17 +167,21 @@ namespace ObrsBanquet
 
                 cmd.Parameters.AddWithValue("@EventName", EventNameTextBox.Text);
                 cmd.Parameters.AddWithValue("@EventType", EventTypeDropDown.SelectedItem.Text);
-                cmd.Parameters.AddWithValue("@NoOfGuest", Convert.ToInt32(NoOfGuest.Text));
+                cmd.Parameters.AddWithValue("@NoOfGuest", Convert.ToInt32(NoofGuest.SelectedValue.ToString()));
                 cmd.Parameters.AddWithValue("@UserId", newUserId);
                 cmd.Parameters.AddWithValue("@Lock", 0);
                 cmd.Parameters.AddWithValue("@Time", eventTime);
                 cmd.Parameters.AddWithValue("@Date", eventDate.Date.ToShortDateString());
+                cmd.Parameters.AddWithValue("@SittingFormat", sittingFormat.SelectedValue.ToString());
+
                 cmd.CommandType = CommandType.Text;
 
                 con.Open();
 
 
                 newReservationId = (Int32)cmd.ExecuteScalar();
+                
+            Session["newReservationId"] = newReservationId;
                 return newReservationId;
             }
             catch (Exception e)
@@ -194,11 +200,9 @@ namespace ObrsBanquet
         }
 
         protected void Next_Click(object sender, EventArgs e)
-        {
-            Session["newReservationId"] = newReservationId;
-            Session["newUserId"] = newUserId;
-            Response.Redirect("MenuPakages.aspx");
+        {   Response.Redirect("MenuPakages.aspx");
         }
+
     }
 }
 

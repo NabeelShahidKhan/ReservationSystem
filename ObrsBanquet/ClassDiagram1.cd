@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ObrsBanquet.AdminPage">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>AdminPage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.Baraat" Collapsed="true">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEIAhAAABIAAAQAHgCAAQAgAABgCBAQAAAA8AIAMAE=</HashCode>
+      <FileName>Baraat.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.Calander">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAACAAAARAgEAAAgAGAAAAEAgAAAAAIEAAA=</HashCode>
+      <FileName>Calander.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.CustomizeMenu">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIgAAEDDAAICAAAAAABBAAAAACAAQAAAAhEYAQIAEAE=</HashCode>
+      <FileName>CustomizeMenu.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.floorplan" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgIAAAA=</HashCode>
+      <FileName>floor plan\floorplan.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.FLoorPlan" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>FLoorPlan.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.InformationForm">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAKAEAFAAAiAASAAAAAAQIgAiQQAJCAgFBAIANFgAE=</HashCode>
+      <FileName>InformationForm.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.MenuPakages" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBgIgEAAAAICAAQAAAAAAQAAQCAYlIEAkwEIMAIAEAU=</HashCode>
+      <FileName>MenuPakages.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.Mhandi" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAAAAAAAAHgCAAAAgAABAABAQAAAAAAIAIAA=</HashCode>
+      <FileName>Mhandi.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.Next" Collapsed="true">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Next.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.OtherEventPlan" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAAIAAAAAHgCAAAAgAABAABAQAAAAAAIAIAA=</HashCode>
+      <FileName>OtherEventPlan.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.Site" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAABIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Site.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.Valima" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAAAAAAAAHgCAAAAgAABAABAQAAAAAAIAIAE=</HashCode>
+      <FileName>Valima.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.floor_plan.baraat" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAA7wDwDAgAIAAAABAAAAAAAgIAAAA=</HashCode>
+      <FileName>floor plan\baraat.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.floor_plan.mehandi" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAE4QDgAAgAIAAAQBAAAAAAAgIAAAA=</HashCode>
+      <FileName>floor plan\mehandi.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObrsBanquet.floor_plan.valima" Collapsed="true">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAA7zDwDAgAIAAAABAAAAAAAgIAAAA=</HashCode>
+      <FileName>floor plan\valima.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

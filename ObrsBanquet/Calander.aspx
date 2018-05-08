@@ -34,14 +34,14 @@
 <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
     <!-- =========================
          PRE LOADER
-    ============================== -->
-   
+    
     <div class="preloader">
 
         <div class="sk-rotating-plane"></div>
 
     </div>
-
+    ============================== -->
+   
     <div class="navbar custom-navbar" style="background-color:#000000" role="navigation">
         <div class="container">
             <!-- navbar header -->
@@ -66,21 +66,21 @@
                 <!--<input type="text" placeholder="Enter Last Name Here.." class="form-control"/>-->
                 <div class="col-sm-6">
                     <asp:DropDownList Style="margin: 0px;" CssClass="dropdown btn-primary form-control" ID="eventTimeDropdown" AutoPostBack="true" OnSelectedIndexChanged="EventTiming" runat="server" Width="250px">
-                        <asp:ListItem>Afternon: 12:00-5:00 PM</asp:ListItem>
                         <asp:ListItem>Night: 9:00-12:00 PM</asp:ListItem>
-                    </asp:DropDownList>
+                     <asp:ListItem>Afternon: 12:00-5:00 PM</asp:ListItem>
+                       </asp:DropDownList>
                 </div>
             </div>
 
             <div style="width: 100%; height: 10px;"></div>
 
-            <asp:Calendar ID="EventCalander" Font-Underline="false" runat="server" BackColor="#FFFFCC" CellPadding="8" CssClass="CalanderStyle text-center" DayNameFormat="Full" Font-Names="Calibri" Font-Size="Medium" Height="400px" TitleFormat="Month" Width="700px" NextMonthText="&gt;" PrevMonthText="&lt;" OnDayRender="UpdateCalander">
-                <DayHeaderStyle BackColor="#F75133" Font-Bold="True" ForeColor="White" Height="30px" />
+            <asp:Calendar ID="EventCalander" Font-Underline="false" runat="server" BackColor="#FFFFCC" CellPadding="8" CssClass="CalanderStyle text-center" DayNameFormat="Full" Font-Names="Calibri" Font-Size="Medium" TitleFormat="Month" Width="700px" NextMonthText="&gt;" PrevMonthText="&lt;" OnDayRender="UpdateCalander">
+                <DayHeaderStyle BackColor="#F75133" Font-Bold="True" ForeColor="White" HorizontalAlign="Center" VerticalAlign="Middle" Wrap="False" />
                 <DayStyle Font-Bold="True" />
-                <NextPrevStyle Font-Underline="false" ForeColor="White" />
+                <NextPrevStyle Font-Underline="false" ForeColor="White" HorizontalAlign="Center" VerticalAlign="Middle" Wrap="True" />
                 <OtherMonthDayStyle Wrap="True" Font-Overline="false" />
                 <SelectorStyle BackColor="Blue" BorderStyle="Solid" BorderWidth="1px" ForeColor="White" />
-                <TitleStyle BackColor="Black" Font-Bold="True" Font-Size="XX-Large" ForeColor="White" Height="70px" HorizontalAlign="Center" />
+                <TitleStyle BackColor="Black" Font-Bold="True" Font-Size="XX-Large" ForeColor="White" Height="70px" HorizontalAlign="Center" VerticalAlign="Middle" />
                 <TodayDayStyle BorderStyle="Solid" BorderWidth="1px" Font-Underline="false" />
             </asp:Calendar>
         </div>

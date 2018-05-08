@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Al Yousuf Banquet</title>
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -24,13 +24,28 @@
     </asp:ContentPlaceHolder>
 
 </head>
-<body>
+<body  data-spy="scroll" data-offset="50" data-target=".navbar-collapse" >
+
+    <div class="navbar custom-navbar" style="background-color:#000000" role="navigation">
+        <div class="container">
+            <!-- navbar header -->
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">Al Yousuf Banquet</a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
+ 
     </form>
 
     

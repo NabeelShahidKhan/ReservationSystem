@@ -7,19 +7,22 @@
 
         <!-- Page Heading -->
         <div class="row">
-               <h1 class="my-4 col-lg-8">Reservation  <small>Pakages & Menus</small></h1>
+               <h1 class="my-4 col-lg-6">Reservation  <small>Pakages & Menus</small></h1>
 
-               <div class="col-lg-4" style="margin-bottom:auto;margin-top:auto">
+               <div class="col-lg-6" style="margin-bottom:auto;margin-top:auto">
                         <div class="row">
-                            <asp:Button ID="Skip" CssClass="btn btn-secondary col-4" runat="server" Text="Skip" OnClick="Skip_Click" />
-                            <span class="col-4"></span>
-                            <asp:Button ID="GoNext" Visible="false" CssClass="btn btn-primary col-4" runat="server" Text="Go Next" OnClick="GoNext_Click" />
-                        </div>
+                            <asp:Button ID="Skip" CssClass="btn btn-secondary col-2" runat="server" Text="Skip" OnClick="Skip_Click" />
+                            <span class="col-1"></span>
+                            <asp:Button ID="CustomiseMenu" Visible="true" CssClass="btn btn-primary col-4" runat="server" Text="Customize Menu" OnClick="CustomiseMenu_Click"/>
+                            <span class="col-1"></span>
+                                 <asp:Button ID="GoNext" Visible="false" CssClass="btn btn-success col-4" runat="server" Text="Go Next" OnClick="GoNext_Click" />
+                          </div>
                </div>
                </div>
 
                <div class="row text-center">
-                   <asp:Label ID="InfoLable" CssClass="text-info h6 align-content-center" runat="server" Text="Select Any Menu.. or Skip to Next Page.."></asp:Label></div>
+                   <asp:Label ID="InfoLable" CssClass="text-info h5 align-content-center" runat="server" Text="Select Any Menu.. or Skip to Next Page..or Make your Own Menu.."></asp:Label>
+               </div>
 
         <div class="row">
         

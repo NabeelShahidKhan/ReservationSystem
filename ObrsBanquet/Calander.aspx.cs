@@ -142,11 +142,11 @@ namespace ObrsBanquet
 
         void chackTime()
         {
-            if (eventTimeDropdown.SelectedIndex == 0)
+            if (eventTimeDropdown.SelectedIndex == 1)
             {
                 eventTime = 'a';
             }
-            else if (eventTimeDropdown.SelectedIndex == 1)
+            else if (eventTimeDropdown.SelectedIndex == 0)
             {
                 eventTime = 'n';
             }

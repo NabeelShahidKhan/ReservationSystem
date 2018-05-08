@@ -66,19 +66,116 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminPage.aspx" />
+    <Content Include="Baraat.aspx" />
     <Content Include="Calander.aspx" />
     <Content Include="css\3-col-portfolio.css" />
     <Content Include="css\CalanderStyle.css" />
     <Content Include="css\ChackBoxMenu.css" />
+    <Content Include="CustomizeMenu.aspx" />
+    <Content Include="floor plan\a\15401-0489.jpeg" />
+    <Content Include="floor plan\a\18278330_1869000136691691_6421803031100206019_o.jpg" />
+    <Content Include="floor plan\a\18556346_1877436909181347_2152735275531102700_n.jpg" />
+    <Content Include="floor plan\a\18622445_1877436839181354_9030670266779006837_n.jpg" />
+    <Content Include="floor plan\a\19959260_1902187640039607_6409571729580355432_n.jpg" />
+    <Content Include="floor plan\a\19961347_1902187383372966_4826804140725295887_n %281%29.jpg" />
+    <Content Include="floor plan\a\20031887_1902187543372950_804388953937159989_n.jpg" />
+    <Content Include="floor plan\a\20604717_1914477322143972_7539623190607442207_n.jpg" />
+    <Content Include="floor plan\a\20621107_1914477515477286_9139352748580734760_n.jpg" />
+    <Content Include="floor plan\a\20621198_1914477458810625_3061171196069694160_n.jpg" />
+    <Content Include="floor plan\a\20621832_1914477258810645_8082417942140727945_n.jpg" />
+    <Content Include="floor plan\a\20638147_1914477292143975_5411811689674920937_n.jpg" />
+    <Content Include="floor plan\a\20638602_1914477345477303_2354460667396306098_n.jpg" />
+    <Content Include="floor plan\a\20638757_1914477175477320_8900355954038064913_n.jpg" />
+    <Content Include="floor plan\a\20664401_1914477542143950_8599287874720245168_n.jpg" />
+    <Content Include="floor plan\a\20664405_1914477205477317_2716634157654127424_n.jpg" />
+    <Content Include="floor plan\a\20664896_1914477618810609_8797542339416255909_n.jpg" />
+    <Content Include="floor plan\a\21192582_1925963604328677_4065244469082613636_n.jpg" />
+    <Content Include="floor plan\a\21231333_1925963390995365_1031253877631529080_n.jpg" />
+    <Content Include="floor plan\a\21270927_1925963337662037_2384535754921898316_n.jpg" />
+    <Content Include="floor plan\a\21314479_1925963460995358_1158946034059392553_n.jpg" />
+    <Content Include="floor plan\a\26219139_1982676668657370_8063429196456329758_n.jpg" />
+    <Content Include="floor plan\a\26219872_1982676481990722_3134155269820391935_n.jpg" />
+    <Content Include="floor plan\a\26906993_1990072651251105_4696038456473063126_n.jpg" />
+    <Content Include="floor plan\a\26907012_1990072227917814_3597041185302863541_n.jpg" />
+    <Content Include="floor plan\a\26907751_1990072741251096_2429166143403335586_n.jpg" />
+    <Content Include="floor plan\a\27067461_1990072424584461_7377174709783895243_n.jpg" />
+    <Content Include="floor plan\a\27073028_1990072704584433_6009291507339256741_n.jpg" />
+    <Content Include="floor plan\a\27073253_1990072277917809_6028600164976786542_n.jpg" />
+    <Content Include="floor plan\a\27332230_1990072507917786_4270215605459397005_n.jpg" />
+    <Content Include="floor plan\a\27658025_2000375396887497_4062444529953464093_n.jpg" />
+    <Content Include="floor plan\a\27973158_2000375220220848_8712212653135622197_n.jpg" />
+    <Content Include="floor plan\a\28685698_2011082955816741_2178957144420967190_n.jpg" />
+    <Content Include="floor plan\a\29244611_2016376068620763_4900131942381859509_n.jpg" />
+    <Content Include="floor plan\a\7-Waterfront-Beach-Resort-Indian-wedding-venue-Grand-Ballroom-reception-Hindu-sweetheart-stage-lighting-baraat-banquet-seating-dance-floor-54.jpg" />
+    <Content Include="floor plan\a\71c7d3e197d5dea9a0a229989972a515.jpg" />
+    <Content Include="floor plan\a\9acd3cb7e3b15e54778db45c33468720--decoration-party-decorations.jpg" />
+    <Content Include="floor plan\a\ac269f95353d2fa5e5d4488803e958aa.jpg" />
+    <Content Include="floor plan\a\b1s.jpg" />
+    <Content Include="floor plan\a\back ground.jpg" />
+    <Content Include="floor plan\a\Classy-Wedding-Door-Entrance-Decorators-in-Pondicherry %281%29.jpg" />
+    <Content Include="floor plan\a\Classy-Wedding-Door-Entrance-Decorators-in-Pondicherry.jpg" />
+    <Content Include="floor plan\a\download %281%29.jpg" />
+    <Content Include="floor plan\a\download.jpg" />
+    <Content Include="floor plan\a\dsc_3080-x3.jpg" />
+    <Content Include="floor plan\a\e1m.jpg" />
+    <Content Include="floor plan\a\e2m.jpg" />
+    <Content Include="floor plan\a\e5.jpg" />
+    <Content Include="floor plan\a\green-wedding-theme-decoration-ideas-in-pakistantulips-event-25.jpg" />
+    <Content Include="floor plan\a\images %281%29.jpg" />
+    <Content Include="floor plan\a\images %2810%29.jpg" />
+    <Content Include="floor plan\a\images %282%29.jpg" />
+    <Content Include="floor plan\a\images %283%29.jpg" />
+    <Content Include="floor plan\a\images %284%29.jpg" />
+    <Content Include="floor plan\a\images %285%29.jpg" />
+    <Content Include="floor plan\a\images %286%29.jpg" />
+    <Content Include="floor plan\a\images %287%29.jpg" />
+    <Content Include="floor plan\a\images %288%29.jpg" />
+    <Content Include="floor plan\a\images %289%29.jpg" />
+    <Content Include="floor plan\a\images.jpg" />
+    <Content Include="floor plan\a\IMG_1538.JPG" />
+    <Content Include="floor plan\a\indian-wedding-reception-table-venue-seating.jpg" />
+    <Content Include="floor plan\a\m1.jpg" />
+    <Content Include="floor plan\a\m2s.jpg" />
+    <Content Include="floor plan\a\m3s.jpg" />
+    <Content Include="floor plan\a\mehndi-entrance-decorations-www.ideas_.bestwedding-dresses-1.jpg" />
+    <Content Include="floor plan\a\mehndi-hall-decoration-2016-7-weddings-eve_l_d93e2d0c5e209d94.jpg" />
+    <Content Include="floor plan\a\Mehndi-Stage-Decoration.jpg" />
+    <Content Include="floor plan\a\mehstage.jpg" />
+    <Content Include="floor plan\a\mehstage2.jpg" />
+    <Content Include="floor plan\a\new-elegant-lighting-chandelier-wedding-stage-decor-20180314120322.jpg" />
+    <Content Include="floor plan\a\s.jpg" />
+    <Content Include="floor plan\a\s1b.jpg" />
+    <Content Include="floor plan\a\s1m.jpg" />
+    <Content Include="floor plan\a\s2b.jpg" />
+    <Content Include="floor plan\a\sit1m.jpg" />
+    <Content Include="floor plan\a\sit3m.jpg" />
+    <Content Include="floor plan\a\stag1m.jpg" />
+    <Content Include="floor plan\backGround\a %281%29.jpg" />
+    <Content Include="floor plan\backGround\a %282%29.jpg" />
+    <Content Include="floor plan\backGround\a %283%29.jpg" />
+    <Content Include="floor plan\backGround\a %284%29.jpg" />
+    <Content Include="floor plan\backGround\a %285%29.jpg" />
+    <Content Include="floor plan\backGround\a %286%29.jpg" />
+    <Content Include="floor plan\backGround\a %287%29.jpg" />
+    <Content Include="floor plan\backGround\a %288%29.jpg" />
+    <Content Include="floor plan\baraat.aspx" />
+    <Content Include="floor plan\floorplan.aspx" />
+    <Content Include="floor plan\mehandi.aspx" />
+    <Content Include="floor plan\valima.aspx" />
+    <Content Include="FLoorPlan.aspx" />
     <Content Include="InformationForm.aspx" />
     <Content Include="MenuPakages.aspx" />
+    <Content Include="Mhandi.aspx" />
     <Content Include="Next.aspx" />
+    <Content Include="OtherEventPlan.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Valima.aspx" />
     <Content Include="vendor\bootstrap\css\bootstrap.css.map" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css.map" />
     <Content Include="vendor\bootstrap\js\bootstrap.bundle.js.map" />
@@ -141,12 +238,68 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Baraat.aspx.cs">
+      <DependentUpon>Baraat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Baraat.aspx.designer.cs">
+      <DependentUpon>Baraat.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Calander.aspx.cs">
       <DependentUpon>Calander.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Calander.aspx.designer.cs">
       <DependentUpon>Calander.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeMenu.aspx.cs">
+      <DependentUpon>CustomizeMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomizeMenu.aspx.designer.cs">
+      <DependentUpon>CustomizeMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="floor plan\baraat.aspx.cs">
+      <DependentUpon>baraat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="floor plan\baraat.aspx.designer.cs">
+      <DependentUpon>baraat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="floor plan\floorplan.aspx.cs">
+      <DependentUpon>floorplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="floor plan\floorplan.aspx.designer.cs">
+      <DependentUpon>floorplan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="floor plan\mehandi.aspx.cs">
+      <DependentUpon>mehandi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="floor plan\mehandi.aspx.designer.cs">
+      <DependentUpon>mehandi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="floor plan\valima.aspx.cs">
+      <DependentUpon>valima.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="floor plan\valima.aspx.designer.cs">
+      <DependentUpon>valima.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FLoorPlan.aspx.cs">
+      <DependentUpon>FLoorPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FLoorPlan.aspx.designer.cs">
+      <DependentUpon>FLoorPlan.aspx</DependentUpon>
     </Compile>
     <Compile Include="InformationForm.aspx.cs">
       <DependentUpon>InformationForm.aspx</DependentUpon>
@@ -162,12 +315,26 @@
     <Compile Include="MenuPakages.aspx.designer.cs">
       <DependentUpon>MenuPakages.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Mhandi.aspx.cs">
+      <DependentUpon>Mhandi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mhandi.aspx.designer.cs">
+      <DependentUpon>Mhandi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Next.aspx.cs">
       <DependentUpon>Next.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Next.aspx.designer.cs">
       <DependentUpon>Next.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OtherEventPlan.aspx.cs">
+      <DependentUpon>OtherEventPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OtherEventPlan.aspx.designer.cs">
+      <DependentUpon>OtherEventPlan.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -176,6 +343,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Valima.aspx.cs">
+      <DependentUpon>Valima.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Valima.aspx.designer.cs">
+      <DependentUpon>Valima.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

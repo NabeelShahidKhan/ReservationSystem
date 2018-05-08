@@ -13,6 +13,51 @@ namespace ObrsBanquet {
     public partial class InformationForm {
         
         /// <summary>
+        /// SubmitLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SubmitLabel;
+        
+        /// <summary>
+        /// PreviousButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button PreviousButton;
+        
+        /// <summary>
+        /// SubmitButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SubmitButton;
+        
+        /// <summary>
+        /// NextButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button NextButton;
+        
+        /// <summary>
+        /// InfoRequiredLable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label InfoRequiredLable;
+        
+        /// <summary>
         /// dateLable control.
         /// </summary>
         /// <remarks>
@@ -40,13 +85,13 @@ namespace ObrsBanquet {
         protected global::System.Web.UI.WebControls.TextBox EventNameTextBox;
         
         /// <summary>
-        /// NoOfGuest control.
+        /// NoofGuest control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NoOfGuest;
+        protected global::System.Web.UI.WebControls.DropDownList NoofGuest;
         
         /// <summary>
         /// EventTypeDropDown control.
@@ -56,6 +101,15 @@ namespace ObrsBanquet {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList EventTypeDropDown;
+        
+        /// <summary>
+        /// sittingFormat control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList sittingFormat;
         
         /// <summary>
         /// firstNameText control.
@@ -128,50 +182,5 @@ namespace ObrsBanquet {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox EmailText;
-        
-        /// <summary>
-        /// InfoRequiredLable control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InfoRequiredLable;
-        
-        /// <summary>
-        /// PreviousButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button PreviousButton;
-        
-        /// <summary>
-        /// SubmitButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SubmitButton;
-        
-        /// <summary>
-        /// SubmitLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label SubmitLabel;
-        
-        /// <summary>
-        /// NextButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button NextButton;
     }
 }
